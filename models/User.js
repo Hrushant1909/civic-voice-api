@@ -40,9 +40,8 @@ const UserSchema = new mongoose.Schema({
   },
   stats: {
     totalIssuesReported: { type: Number, default: 0 },
-    resolvedIssues: { type: Number, default: 0 },
-    points: { type: Number, default: 0 },
-    rank: { type: Number, default: 0 }
+    totalIssuesResolved: { type: Number, default: 0 },
+    points: { type: Number, default: 0 }
   },
   isActive: {
     type: Boolean,
